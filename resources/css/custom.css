@@ -1,0 +1,152 @@
+
+html {
+  font-size: 90% !important;
+  /* font-size: 13px; */
+}
+:root {
+    --bs-body-font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+    font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+    font-optical-sizing: auto;
+}
+
+.gap-0 {
+    gap: 0 !important;
+}
+
+.gap-1 {
+    gap: 0.25rem !important;
+}
+
+.gap-2 {
+    gap: 0.5rem !important;
+}
+
+.gap-3 {
+    gap: 1rem !important;
+}
+
+.gap-4 {
+    gap: 1.5rem !important;
+}
+
+.gap-5 {
+    gap: 3rem !important;
+}
+.layout-fixed .brand-link {
+    width: 230px;
+}
+.nav-sidebar>.nav-item .nav-icon {
+    margin-right: .5rem;
+}
+.table td, .table th {
+    padding: .5rem!important;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+.main-sidebar, .main-sidebar::before {
+    width: 230px;
+}
+.sidebar-mini .main-sidebar .nav-link, .sidebar-mini-md .main-sidebar .nav-link, .sidebar-mini-xs .main-sidebar .nav-link {
+    width: calc(230px - .5rem * 2);
+}
+.nav-sidebar>.nav-item>.nav-link, .nav-treeview>.nav-item>.nav-link {
+    padding: .5rem .5rem;
+}
+.sidebar-collapse.sidebar-mini .main-sidebar .nav-sidebar .nav-link{
+    width: 3rem;
+}
+.nav-sidebar .nav-link>.right, .nav-sidebar .nav-link>p>.right
+{
+    right: .5rem;
+}
+body.sidebar-open{
+    overflow-y: hidden !important;
+}
+@media (min-width: 768px) {
+    body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .content-wrapper, body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .main-footer, body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .main-header {
+      margin-left: 230px;
+    }
+}
+.table td, .table th {
+   padding: .5rem !important;
+    vertical-align: top;
+
+    /* Giữ viền trên và dưới là nét liền (solid) */
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+
+    /* Đổi viền trái và phải thành nét chấm (dotted) */
+    border-left: 1px dotted #dee2e6;
+    border-right: 1px dotted #dee2e6;
+}
+/* .table td, .table th {
+    white-space: normal !important;
+    word-break: break-word;
+} */
+.table th {
+    padding: .5rem !important;
+    vertical-align: middle !important; /* Căn giữa theo chiều dọc */
+    text-align: center !important;     /* Căn giữa chữ theo chiều ngang */
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+    border-left: 1px dotted #dee2e6;
+    border-right: 1px dotted #dee2e6;
+}
+
+.badge {
+    font-size: 80%!important; /* Giữ nguyên kích thước font */
+    display: inline-block;
+    padding: .25em .4em;
+    font-weight: 500!important; ;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+
+/* Khung alert có giới hạn chiều cao và bật cuộn */
+.alert-scrollable {
+  max-height: 150px;
+  overflow-y: auto;
+  white-space: pre-line;
+}
+
+/* Tùy chỉnh thanh cuộn siêu mỏng trên Webkit (Chrome, Edge, Safari) */
+.alert-scrollable::-webkit-scrollbar {
+  width: 4px;
+}
+
+.alert-scrollable::-webkit-scrollbar-track {
+  background: rgba(255, 248, 248, 0.05);
+  border-radius: 4px;
+}
+
+.alert-scrollable::-webkit-scrollbar-thumb {
+  background: rgba(255, 239, 240, 0.35); /* Màu đỏ mờ tông danger */
+  border-radius: 4px;
+}
+
+.alert-scrollable::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 246, 247, 0.65);
+}
+
+/* Hỗ trợ thanh cuộn mỏng cho Firefox */
+.alert-scrollable {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(253, 244, 246, 0.35) transparent;
+}
+
+
+@media (min-width: 992px) {
+    .sidebar-mini.sidebar-collapse .content-wrapper, .sidebar-mini.sidebar-collapse .main-footer, .sidebar-mini.sidebar-collapse .main-header {
+        margin-left: 4rem !important;
+    }
+    .sidebar-mini.sidebar-collapse .main-sidebar, .sidebar-mini.sidebar-collapse .main-sidebar::before {
+        margin-left: 0;
+        width: 4rem;
+    }
+}

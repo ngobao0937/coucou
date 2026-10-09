@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+/* @font-face {
+    font-family: noto_sans;
+    src: url(./../fonts/noto_sans.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    unicode-range: U +0102 -0103, U +0110 -0111, U +1EA0 -1EF9, U +20AB;
+} */
+
+@theme {
+    --font-sans: 'Noto Sans','Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
