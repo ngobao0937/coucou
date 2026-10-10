@@ -19,7 +19,7 @@ class DatabaseSeeder extends Seeder
             [
                 'name' => 'Quản Trị Viên',
                 'email' => 'admin@gmail.com',
-                'password' => Hash::make('12345678'),
+                'password' => Hash::make('12348765'),
                 'role' => 'admin',
             ]
         );
@@ -29,7 +29,7 @@ class DatabaseSeeder extends Seeder
             [
                 'name' => 'Nhân Viên Order 01',
                 'email' => 'nhanvien1@gmail.com',
-                'password' => Hash::make('12345678'),
+                'password' => Hash::make('12348765'),
                 'role' => 'user',
             ]
         );
