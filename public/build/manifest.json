@@ -1,0 +1,73 @@
+{
+  "_adminlte.min-o2Wjc3a0.js": {
+    "file": "assets/adminlte.min-o2Wjc3a0.js",
+    "name": "adminlte.min",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_bootstrap.bundle.min-u06LzGl_.js": {
+    "file": "assets/bootstrap.bundle.min-u06LzGl_.js",
+    "name": "bootstrap.bundle.min",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2": {
+    "file": "assets/fa-brands-400-Bs6tcqqs.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2": {
+    "file": "assets/fa-regular-400-DRN8N0d1.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2": {
+    "file": "assets/fa-solid-900-IAB4Droh.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2": {
+    "file": "assets/fa-v4compatibility-CErXDOsT.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-C1Bj3CLt.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/css/custom.css": {
+    "file": "assets/custom-J7r83RY2.css",
+    "src": "resources/css/custom.css",
+    "isEntry": true,
+    "name": "custom",
+    "names": [
+      "custom.css"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-yhvw5exf.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "_bootstrap.bundle.min-u06LzGl_.js",
+      "_adminlte.min-o2Wjc3a0.js"
+    ],
+    "css": [
+      "assets/app-Din0eCLe.css",
+      "assets/app-C1Bj3CLt.css",
+      "assets/custom-J7r83RY2.css"
+    ],
+    "assets": [
+      "assets/fa-brands-400-Bs6tcqqs.woff2",
+      "assets/fa-regular-400-DRN8N0d1.woff2",
+      "assets/fa-solid-900-IAB4Droh.woff2",
+      "assets/fa-v4compatibility-CErXDOsT.woff2"
+    ]
+  }
+}
